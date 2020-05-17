@@ -5,6 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_TicTacToe"
         mc:Ignorable="d"
+        
+    <!-- Fenster anlegen-->
         Title="Muffls TicTacToe" Height="500" Width="500" Topmost="True" Icon="/TicTacToe.png">
     
     <!-- Spielfeld anlegen-->
