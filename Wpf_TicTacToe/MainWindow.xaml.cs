@@ -24,5 +24,10 @@ namespace Wpf_TicTacToe
         {
             InitializeComponent();
         }
+
+        private void cmd1_1_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
