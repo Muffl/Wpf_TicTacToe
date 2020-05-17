@@ -11,30 +11,30 @@
     <Grid x:Name="spielfeld" HorizontalAlignment="Center" Height="460" Margin="0,10,0,0" VerticalAlignment="Top" Width="500"
           Background="Bisque" ShowGridLines="True">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="Auto"/>
+           
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="*"/>
-            <ColumnDefinition Width="Auto"/>
+           
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="Auto"/>
+            
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
+           
             
     <!-- Buttons hinzufügen -->    
         </Grid.RowDefinitions>
-        <Button x:Name="cmd1_1" Content="1-1" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Click="cmd1_1_Click" FontSize="20"/>
-        <Button x:Name="cmd1_2" Content="1-2" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd1_3" Content="1-3" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd2_1" Content="2-1" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd2_2" Content="2-2" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd2_3" Content="2-3" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd3_1" Content="3-1" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd3_2" Content="3-2" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd3_3" Content="3-3" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="3" VerticalAlignment="Center" FontSize="20"/>
+        <Button x:Name="cmd1_1" Content="1-1" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Center" Click="cmd1_1_Click" FontSize="20"/>
+        <Button x:Name="cmd1_2" Content="1-2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Center" FontSize="20"/>
+        <Button x:Name="cmd1_3" Content="1-3" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Center" FontSize="20"/>
+        <Button x:Name="cmd2_1" Content="2-1" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="20"/>
+        <Button x:Name="cmd2_2" Content="2-2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="20"/>
+        <Button x:Name="cmd2_3" Content="2-3" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="20"/>
+        <Button x:Name="cmd3_1" Content="3-1" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" FontSize="20"/>
+        <Button x:Name="cmd3_2" Content="3-2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" FontSize="20"/>
+        <Button x:Name="cmd3_3" Content="3-3" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" FontSize="20"/>
     </Grid>
 </Window>
     
