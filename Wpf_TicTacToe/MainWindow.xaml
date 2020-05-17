@@ -5,11 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_TicTacToe"
         mc:Ignorable="d"
-        
-    <!-- Fenster anlegen-->
-        Title="Muffls TicTacToe" Height="500" Width="500" Topmost="True" Icon="/TicTacToe.png">
+    Title="Muffls TicTacToe" Height="500" Width="500" Topmost="True" Icon="/TicTacToe.png">
     
-    <!-- Spielfeld anlegen-->
+    <!-- Spielfeld anlegen -->
     <Grid x:Name="spielfeld" HorizontalAlignment="Center" Height="460" Margin="0,10,0,0" VerticalAlignment="Top" Width="500"
           Background="Bisque" ShowGridLines="True">
         <Grid.ColumnDefinitions>
