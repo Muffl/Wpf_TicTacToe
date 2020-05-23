@@ -27,8 +27,11 @@ namespace Wpf_TicTacToe
 
         private void cmd1_1_Click(object sender, RoutedEventArgs e)
         {
-            cmd1_1.Background = new SolidColorBrush(Colors.Gold);
-            cmd1_1.Foreground = new SolidColorBrush(Colors.DarkRed);
+            // Anzeige des 1ten Buttons invertieren 
+            var jetzBackgr = cmd1_1.Background;
+            cmd1_1.Background = cmd1_1.Foreground;
+            cmd1_1.Foreground = jetzBackgr;
+           
         }
     }
 }
