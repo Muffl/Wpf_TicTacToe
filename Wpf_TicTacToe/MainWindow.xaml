@@ -15,8 +15,8 @@
 
         <Style TargetType="Button">
 
-            <Setter Property="Background" Value="#FFBB9C0F"/>
-            <Setter Property="Foreground" Value="#FFB41010"/>
+            <Setter Property="Background" Value="DarkRed"/>
+            <Setter Property="Foreground" Value="Gold"/>
             <Setter Property="BorderThickness" Value="1"/>
             <Setter Property="BorderBrush" Value="#FF858282"/>
             <Setter Property="FontSize" Value="100"/>
