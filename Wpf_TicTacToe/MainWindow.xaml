@@ -5,7 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Wpf_TicTacToe"
         mc:Ignorable="d"
-    Title="Muffls TicTacToe" Height="500" Width="500" Topmost="True" Icon="/TicTacToe.png">
+
+    
+
+    Title="Muffls TicTacToe" Height="500" Width="500" Topmost="True" Icon="/TicTacToe.png" SizeToContent="WidthAndHeight">
+
+    <!-- Aussehen der Button -->
+    <Window.Resources>
+
+        <Style TargetType="Button">
+
+            <Setter Property="Background" Value="#FFBB9C0F"/>
+            <Setter Property="Foreground" Value="#FFB41010"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="BorderBrush" Value="#FF858282"/>
+            <Setter Property="FontSize" Value="100"/>
+
+        </Style>
+    </Window.Resources>
     
     <!-- Spielfeld anlegen -->
     <Grid x:Name="spielfeld" HorizontalAlignment="Center" Height="460" Margin="0,10,0,0" VerticalAlignment="Top" Width="500"
@@ -17,24 +34,29 @@
             <ColumnDefinition Width="*"/>
            
         </Grid.ColumnDefinitions>
+        
         <Grid.RowDefinitions>
-            
+
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
-           
-            
-    <!-- Buttons hinzufügen -->    
+
         </Grid.RowDefinitions>
-        <Button x:Name="cmd1_1" Content="1-1" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Center" Click="cmd1_1_Click" FontSize="20"/>
-        <Button x:Name="cmd1_2" Content="1-2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd1_3" Content="1-3" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd2_1" Content="2-1" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd2_2" Content="2-2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd2_3" Content="2-3" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd3_1" Content="3-1" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd3_2" Content="3-2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" FontSize="20"/>
-        <Button x:Name="cmd3_3" Content="3-3" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" FontSize="20"/>
+        
+
+        <!-- Buttons hinzufügen -->    
+        
+        <Button x:Name="cmd1_1" Content="1-1" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Center" Click="cmd1_1_Click"/>
+        <Button x:Name="cmd1_2" Content="1-2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Center" />
+        <Button x:Name="cmd1_3" Content="1-3" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="0" VerticalAlignment="Center" />
+        <Button x:Name="cmd2_1" Content="2-1" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" />
+        <Button x:Name="cmd2_2" Content="2-2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" />
+        <Button x:Name="cmd2_3" Content="2-3" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" />
+        <Button x:Name="cmd3_1" Content="3-1" Grid.Column="0" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" />
+        <Button x:Name="cmd3_2" Content="3-2" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" />
+        <Button x:Name="cmd3_3" Content="3-3" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="2" VerticalAlignment="Center" />
+       
     </Grid>
+    
 </Window>
     
