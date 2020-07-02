@@ -25,7 +25,7 @@ namespace Wpf_TicTacToe
             InitializeComponent();
         }
 
-        private void cmd1_1_Click(object sender, RoutedEventArgs e)
+        private void Cmd1_1_Click(object sender, RoutedEventArgs e)
         {
             // Anzeige des 1ten Buttons invertieren 
             var jetzBackgr = cmd1_1.Background;
